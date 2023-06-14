@@ -1,0 +1,56 @@
+body{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	padding: 0;
+	margin: 0;
+    background-color: #f7f7f7;
+}
+main{
+    text-align: center;
+}
+.contato-content {
+    background-color: #f7f7f7; /* Cor de fundo do main */
+    padding: 20px; /* Espaçamento interno */
+    display: flex; /* Ativar flexbox */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    flex-direction: column; /* Alinhar os elementos em coluna */
+    text-align: center; /* Centralizar o texto */
+    height: 70vh; /* Definir altura total da viewport */
+  }
+  
+  .contato-content section {
+    margin-bottom: 20px;
+  }
+  .contato-content h1 {
+    color: #0d4c31;
+    font-size: 38px;
+    margin-bottom: 10px; 
+  }
+  
+  .contato-content p {
+    color: #555555;
+    font-size: 24px;
+    line-height: 1.5; 
+    margin-bottom: 10px;
+  }
+  
+  .contato-content ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .contato-content li {
+    color: #555555;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 5px; 
+  }
+  
+  .contato-content li a {
+    color: #0d4c31;
+    text-decoration: none;
+  }
+  
+  .contato-content li a:hover {
+    text-decoration: underline;
+  }
