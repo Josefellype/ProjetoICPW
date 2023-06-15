@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+  }
 body{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	padding: 0;
@@ -23,7 +27,6 @@ header{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	top: 0;
 	width: 100%;
 	font-weight: bolder;
@@ -41,4 +44,47 @@ header{
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
+}
+@media screen and (max-width: 600px){
+	body{
+		max-width: 100%;
+		font-size: 1.0em;
+	}
+	header {
+		background-color: #0d4c31;
+		padding: 20px;
+		color: #fff;
+	}
+	.menu{
+	}
+	.menu nav{
+		display: inline;
+	}
+	.menu nav img{
+		max-width: 100%;
+		display: block;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	.menu nav ul {
+		list-style-type: none;
+		padding: 0;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.menu nav ul li {
+		text-align: center;
+		display: inline;
+		margin-right: 0px;
+	}
+	
+	.menu nav ul li a {
+		font-size: 1.0em;
+		text-decoration: none;
+		color: #f5e29b;
+		font-weight: bold;
+	}
+	
 }
