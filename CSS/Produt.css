@@ -36,3 +36,15 @@ body{
 .features table tr th a:hover{
 	color: #f5e29b;
 }
+@media screen and (max-width: 600px){
+	.features{
+		padding: 10px 0;
+	}
+	.features h2{
+		font-size: 24px;
+	}
+	.features table{
+		font-size: 22px;
+		width: 75%;
+	  }
+}

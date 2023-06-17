@@ -31,9 +31,10 @@ header{
 	width: 100%;
 	font-weight: bolder;
 	display: flex;
+	margin-left: 200px;
 }
 .menu nav ul li{
-	margin-left: 20px;
+	margin-left: 40px;
 }
 .menu nav ul li a{
 	font-family: "Quicksand", sans-serif;
@@ -78,10 +79,11 @@ header{
 		text-align: center;
 		display: inline;
 		margin-right: 0px;
+		margin-left: 0px;
 	}
 	
 	.menu nav ul li a {
-		font-size: 1.0em;
+		font-size: 1.2em;
 		text-decoration: none;
 		color: #f5e29b;
 		font-weight: bold;

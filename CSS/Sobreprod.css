@@ -4,44 +4,66 @@
   }
 body {
     font-family: 'Quicksand', sans-serif;
-    background-color: #f1f1f1;
     color: #333;
     line-height: 1.6;
+    background-color: #ffffff;
+    background-image: url('../imagens/Back-groundProd.png');
+    background-repeat: no-repeat;
 }
 main {
-    padding: 20px;
-    background-color: #fff;
+    padding: 0px 560px;
     margin: 0px;
 } 
 main h1 {    
-    font-family: 'Nunito', sans-serif;  
-    font-size: 28px; 
-    margin-bottom: 10px;
+    font-family: "Fredoka", sans-serif;
+    color: #000000;
+    font-size: 36px; 
+    font-weight: bold;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
 main h2{
 	margin-bottom: 10px;
 	color: #000000;
-	margin-left: 60px;
-    margin-right: 60px;
 	margin-top: 0px;
 	font-family: "Fredoka", sans-serif;
 	font-weight: bolder;
 	font-size: 40px;
 }
 main p {
-	margin-left: 60px;
-	margin-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
 	font-family: "Quicksand", sans-serif;
-	font-size: 22px;
+	font-size: 25px;
 	font-weight: bold;
 	color: #333;
 }
 main img{
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
+}
+@media screen and (max-width: 600px){
+    body {
+        background-image: url();
+        max-width: 100%;
+        
+    }
+    main {
+        background-repeat: no-repeat;
+        background-image: url('../imagens/Back-groundRespons.png');
+        padding: 0px 18px;
+        margin: 0px;
+    } 
+    main p {
+        font-size: 22px;
+        font-weight: bold;
+        color: #0e2433;
+    }
 }
