@@ -56,8 +56,6 @@ header{
 		padding: 20px;
 		color: #fff;
 	}
-	.menu{
-	}
 	.menu nav{
 		display: inline;
 	}
@@ -89,6 +87,4 @@ header{
 		font-weight: bold;
 		padding: 10px 14px;
 	}
-	
-}
 }
