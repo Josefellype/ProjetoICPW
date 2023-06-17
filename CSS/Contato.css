@@ -6,13 +6,12 @@ body{
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	padding: 0;
 	margin: 0;
-  background-color: #f7f7f7;
+  background-color: #0e2433;
 }
 main{
-  margin-top: 10px;
+  margin-top: 30px;
 }
 .contato-content {
-    background-color: #f7f7f7;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -26,14 +25,14 @@ main{
     margin-bottom: 20px;
   }
   .contato-content h1 {
-    color: #0d4c31;
+    color: #489640;
     font-size: 34px;
     margin-bottom: 10px; 
     margin-top: 10px;
   }
   
   .contato-content p {
-    color: #555555;
+    color: #a9a9a9;
     font-size: 24px;
     line-height: 1.5; 
     margin-bottom: 10px;
@@ -46,14 +45,14 @@ main{
   }
   
   .contato-content li {
-    color: #555555;
+    color: #a9a9a9;
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 5px; 
   }
   
   .contato-content li a {
-    color: #0d4c31;
+    color: #489640;
     text-decoration: none;
   }
   
