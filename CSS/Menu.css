@@ -70,7 +70,7 @@ header{
 	.menu nav ul {
 		list-style-type: none;
 		padding: 0;
-		margin-top: 20px;
+		margin-top: 5px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -87,6 +87,8 @@ header{
 		text-decoration: none;
 		color: #f5e29b;
 		font-weight: bold;
+		padding: 10px 14px;
 	}
 	
+}
 }
