@@ -84,7 +84,7 @@ body{
 	}
 	.hero-content p {
 		margin-left: 20px;
-		margin-right: auto;
+		margin-right: 10px;
 		font-family: "Quicksand", sans-serif;
 		font-size: 18px;
 		font-weight: bold;
