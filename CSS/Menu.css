@@ -21,7 +21,7 @@ header{
 	align-items: center;
 }
 .menu nav img{
-	margin-right: 650px;
+	margin-right: 550px;
 	margin-left: 250px;
 }
 .menu nav ul{
@@ -32,10 +32,10 @@ header{
 	width: 100%;
 	font-weight: bolder;
 	display: flex;
-	margin-left: 200px;
+	margin-left: 100px;
 }
 .menu nav ul li{
-	margin-left: 40px;
+	margin-left: 25px;
 }
 .menu nav ul li a{
 	font-family: "Quicksand", sans-serif;
@@ -44,7 +44,7 @@ header{
 	display: block;
 	color: #f5e29b;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 14px 18px;
 	text-decoration: none;
 }
 @media screen and (max-width: 600px){
@@ -86,6 +86,11 @@ header{
 	.menu nav ul li a {
 		font-size: 1.2em;
 		text-decoration: none;
+		color: #f5e29b;
+		font-weight: bold;
+		padding: 10px 14px;
+	}
+}
 		color: #f5e29b;
 		font-weight: bold;
 		padding: 10px 14px;
