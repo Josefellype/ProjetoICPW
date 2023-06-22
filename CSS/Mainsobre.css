@@ -52,3 +52,20 @@ main{
     font-weight: bold;
     color: #000000;
   }
+@media screen and (max-width: 600px){
+	.main-content{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+	}
+	.main-content h2{
+		margin-left: 10px;
+	}
+	.main-content h3{
+		margin-left: 10px;
+	}
+	.main-content p {
+		margin-left: 10px;
+		margin-right: 10px
+	}
+}
