@@ -57,7 +57,10 @@ header{
 		padding: 20px;
 		color: #fff;
 	}
-	
+	.menu nav img{
+		margin-right: 1250px;
+		margin-left: 250px;
+	}
 	.menu nav{
 		display: inline;
 	}
@@ -65,9 +68,8 @@ header{
 		max-width: 100%;
 		display: block;
 		align-items: center;
-		margin-right: 1250px;
-		margin-left: 250px;
-		
+		margin-right: auto;
+		margin-left: auto;
 	}
 	.menu nav ul {
 		list-style-type: none;
@@ -88,11 +90,6 @@ header{
 	.menu nav ul li a {
 		font-size: 1.2em;
 		text-decoration: none;
-		color: #f5e29b;
-		font-weight: bold;
-		padding: 10px 14px;
-	}
-}
 		color: #f5e29b;
 		font-weight: bold;
 		padding: 10px 14px;
